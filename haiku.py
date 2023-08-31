@@ -1,12 +1,16 @@
+
+# Just change the code for the variables if you want to give the program a different input :-)
 lineOne = "Hello world"
 lineTwo = "You are looking"
 lineThree = "Quite good"
 
-# Haiku is all lines
+# Haiku is all lines. Make your own list if you want to
 haiku = [lineOne, lineTwo, lineThree]
+
+# Length of each line of the haiku is stored here
 haiku_len = []
 
-# Finds the lenght of each line in the haiku
+# Finds the length of each line in the haiku
 for line in haiku:
     i = int(len(line))
     haiku_len.append(i)
